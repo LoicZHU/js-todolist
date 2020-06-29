@@ -1,0 +1,62 @@
+body {
+  background-color: #2e5849;
+}
+
+/* div todo */
+#todo {
+  width: 65%;
+  margin: 2rem auto 0 auto;
+}
+
+/* input : Ajouter une tache */
+#addTaskInput {
+  display: block;
+  padding: 1rem;
+  margin: 0 auto 3rem;
+  font-weight: bold;
+  background-color: #1c382f;
+  border-color: #183129;
+  box-shadow: -1px 1px 5px 5px rgba(0,0,0,.1) inset;
+  color: #fff;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, .5);
+}
+
+/* taches en cours */
+#taskCount {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+}
+
+.task {
+  margin: 0.3rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task--todo {
+  background-color: #eee;
+}
+
+.task--complete {
+  background-color: #8da39b;
+  text-decoration: line-through;
+}
+
+.task__content {
+  display: flex;
+}
+
+#checkboxInput {
+  margin-right: 1rem;
+}
+
+#checkboxInput:checked {
+  background-color: blue;
+}
